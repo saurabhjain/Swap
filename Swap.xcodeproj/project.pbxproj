@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		099ECD7C1495931800234229 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099ECD7B1495931800234229 /* UIKit.framework */; };
+		099ECD7E1495931800234229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099ECD7D1495931800234229 /* Foundation.framework */; };
+		099ECD801495931800234229 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099ECD7F1495931800234229 /* CoreGraphics.framework */; };
+		099ECD861495931800234229 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 099ECD841495931800234229 /* InfoPlist.strings */; };
+		099ECD891495931800234229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 099ECD881495931800234229 /* main.m */; };
+		099ECD8C1495931800234229 /* SwapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 099ECD8B1495931800234229 /* SwapAppDelegate.m */; };
+		099ECD8F1495931800234229 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099ECD8D1495931800234229 /* MainWindow.xib */; };
+		099ECD921495931800234229 /* SwapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099ECD911495931800234229 /* SwapViewController.m */; };
+		099ECD951495931800234229 /* SwapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099ECD931495931800234229 /* SwapViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		099ECD771495931800234229 /* Swap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		099ECD7B1495931800234229 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		099ECD7D1495931800234229 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		099ECD7F1495931800234229 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		099ECD831495931800234229 /* Swap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Swap-Info.plist"; sourceTree = "<group>"; };
+		099ECD851495931800234229 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		099ECD871495931800234229 /* Swap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swap-Prefix.pch"; sourceTree = "<group>"; };
+		099ECD881495931800234229 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		099ECD8A1495931800234229 /* SwapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapAppDelegate.h; sourceTree = "<group>"; };
+		099ECD8B1495931800234229 /* SwapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapAppDelegate.m; sourceTree = "<group>"; };
+		099ECD8E1495931800234229 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		099ECD901495931800234229 /* SwapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapViewController.h; sourceTree = "<group>"; };
+		099ECD911495931800234229 /* SwapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapViewController.m; sourceTree = "<group>"; };
+		099ECD941495931800234229 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SwapViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		099ECD741495931800234229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099ECD7C1495931800234229 /* UIKit.framework in Frameworks */,
+				099ECD7E1495931800234229 /* Foundation.framework in Frameworks */,
+				099ECD801495931800234229 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099ECD6C1495931800234229 = {
+			isa = PBXGroup;
+			children = (
+				099ECD811495931800234229 /* Swap */,
+				099ECD7A1495931800234229 /* Frameworks */,
+				099ECD781495931800234229 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		099ECD781495931800234229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				099ECD771495931800234229 /* Swap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		099ECD7A1495931800234229 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				099ECD7B1495931800234229 /* UIKit.framework */,
+				099ECD7D1495931800234229 /* Foundation.framework */,
+				099ECD7F1495931800234229 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		099ECD811495931800234229 /* Swap */ = {
+			isa = PBXGroup;
+			children = (
+				099ECD8A1495931800234229 /* SwapAppDelegate.h */,
+				099ECD8B1495931800234229 /* SwapAppDelegate.m */,
+				099ECD8D1495931800234229 /* MainWindow.xib */,
+				099ECD901495931800234229 /* SwapViewController.h */,
+				099ECD911495931800234229 /* SwapViewController.m */,
+				099ECD931495931800234229 /* SwapViewController.xib */,
+				099ECD821495931800234229 /* Supporting Files */,
+			);
+			path = Swap;
+			sourceTree = "<group>";
+		};
+		099ECD821495931800234229 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				099ECD831495931800234229 /* Swap-Info.plist */,
+				099ECD841495931800234229 /* InfoPlist.strings */,
+				099ECD871495931800234229 /* Swap-Prefix.pch */,
+				099ECD881495931800234229 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		099ECD761495931800234229 /* Swap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099ECD981495931800234229 /* Build configuration list for PBXNativeTarget "Swap" */;
+			buildPhases = (
+				099ECD731495931800234229 /* Sources */,
+				099ECD741495931800234229 /* Frameworks */,
+				099ECD751495931800234229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swap;
+			productName = Swap;
+			productReference = 099ECD771495931800234229 /* Swap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		099ECD6E1495931800234229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "USC Student";
+			};
+			buildConfigurationList = 099ECD711495931800234229 /* Build configuration list for PBXProject "Swap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 099ECD6C1495931800234229;
+			productRefGroup = 099ECD781495931800234229 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				099ECD761495931800234229 /* Swap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		099ECD751495931800234229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099ECD861495931800234229 /* InfoPlist.strings in Resources */,
+				099ECD8F1495931800234229 /* MainWindow.xib in Resources */,
+				099ECD951495931800234229 /* SwapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		099ECD731495931800234229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099ECD891495931800234229 /* main.m in Sources */,
+				099ECD8C1495931800234229 /* SwapAppDelegate.m in Sources */,
+				099ECD921495931800234229 /* SwapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		099ECD841495931800234229 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				099ECD851495931800234229 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		099ECD8D1495931800234229 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				099ECD8E1495931800234229 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		099ECD931495931800234229 /* SwapViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				099ECD941495931800234229 /* en */,
+			);
+			name = SwapViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		099ECD961495931800234229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		099ECD971495931800234229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		099ECD991495931800234229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swap/Swap-Prefix.pch";
+				INFOPLIST_FILE = "Swap/Swap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		099ECD9A1495931800234229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swap/Swap-Prefix.pch";
+				INFOPLIST_FILE = "Swap/Swap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		099ECD711495931800234229 /* Build configuration list for PBXProject "Swap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099ECD961495931800234229 /* Debug */,
+				099ECD971495931800234229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		099ECD981495931800234229 /* Build configuration list for PBXNativeTarget "Swap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099ECD991495931800234229 /* Debug */,
+				099ECD9A1495931800234229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 099ECD6E1495931800234229 /* Project object */;
+}
