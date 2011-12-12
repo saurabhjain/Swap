@@ -14,11 +14,11 @@
     IBOutlet UIView *landscape;
     IBOutlet UIView *portrait;
     
-    // Foo
+    // Foo Button
     IBOutlet UIButton *landscapeFooButton;
     IBOutlet UIButton *portraitFooButton;
     
-    // Bar
+    // Bar Button
     IBOutlet UIButton *landscaperBarButton;
     IBOutlet UIButton *portraitBarButton;
 }
