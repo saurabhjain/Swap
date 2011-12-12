@@ -9,9 +9,68 @@
 #import "SwapViewController.h"
 
 @implementation SwapViewController
+@synthesize landscape;
+@synthesize portrait;
+@synthesize landscapeBarButton;
+@synthesize landscapeFooButton;
+@synthesize portraitBarButton;
+@synthesize portraitFooButton;
+
+- (void) willAnimateFirstHalfOfRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
+    
+    UIInterfaceOrientation toOrientation = self.interfaceOrientation;
+    
+    if(toOrientation == UIInterfaceOrientationPortrait)
+    {
+        self.view = self.portrait;
+        self.view.transform = CGAffineTransformIdentity;
+        self.view.transform = CGAffineTransformMakeRotation(degreesToRadian(0));
+        self.view.bounds = CGRectMake(0.0, 0.0, 300.0, 480.0);
+    }
+    else if(toOrientation == UIInterfaceOrientationLandscapeLeft)
+    {
+        self.view = self.landscape;
+        self.view.transform = CGAffineTransformIdentity;
+        self.view.transform = CGAffineTransformMakeRotation(degreesToRadian(-90));
+        self.view.bounds = CGRectMake(0.0, 0.0, 460.0, 320.0);
+    }
+    else if(toOrientation == UIInterfaceOrientationPortraitUpsideDown)
+    {
+        self.view = self.portrait;
+        self.view.transform = CGAffineTransformIdentity;
+        self.view.transform = CGAffineTransformMakeRotation(degreesToRadian(180));
+        self.view.bounds = CGRectMake(0.0, 0.0, 300.0, 480.0);
+    }
+    else if(toOrientation == UIInterfaceOrientationLandscapeRight)
+    {
+        self.view = self.landscape;
+        self.view.transform = CGAffineTransformIdentity;
+        self.view.transform = CGAffineTransformMakeRotation(degreesToRadian(90));
+        self.view.bounds = CGRectMake(0.0, 0.0, 460.0, 320.0);
+    }
+}
+
+- (IBAction)buttonPressed:(id)sender {
+    
+    if(sender == portraitFooButton || sender == landscapeFooButton)
+    {
+        portraitFooButton.hidden = YES;
+        landscapeFooButton.hidden = YES;
+    }
+    else
+    {
+        portraitBarButton.hidden = YES;
+        landscapeBarButton.hidden = YES;
+    }
+}
 
 - (void)dealloc
 {
+    [portrait release];
+    [landscapeFooButton release];
+    [portraitFooButton release];
+    [landscaperBarButton release];
+    [portraitBarButton release];
     [super dealloc];
 }
 
@@ -43,7 +102,8 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    //return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return YES;
 }
 
 @end
